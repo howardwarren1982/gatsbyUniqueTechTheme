@@ -1,0 +1,47 @@
+/*hero */
+.row {
+  max-width: 1025px;
+  margin: 0 auto 0 auto;
+}
+
+.sectionhero {
+  background-color: var(--primary-color);
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.templetehero {
+  display: flex;
+  gap: 55px;
+}
+
+.herotext {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+}
+
+.herotext h1 {
+  margin-bottom: 15px;
+}
+
+.herotext p {
+  max-width: 51ch;
+  max-height: 290px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.herotext button {
+  background-color: var(--second-color);
+  color: #fff;
+  font-size: 80%;
+  padding: 15px 22px;
+  border: none;
+  margin-top: 10px;
+}
+
+.herotext button:hover,
+.herotext button:focus {
+  background-color: var(--second-color-hover);
+}

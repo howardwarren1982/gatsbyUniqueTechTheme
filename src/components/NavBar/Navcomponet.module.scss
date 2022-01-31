@@ -1,0 +1,75 @@
+nav {
+  max-width: 1025px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  gap: 172px;
+  padding-top: 75px;
+  margin-bottom: 75px;
+  background-color: var(--primary-color);
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  color: var(--second-color);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.linklist ul li {
+  padding-bottom: 10px;
+}
+
+.logoside h2 {
+  font-size: 130%;
+}
+
+.logoside span {
+  font-weight: bolder;
+  color: #fff;
+  border: 3px solid #fff200;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 3px;
+}
+
+.linklist {
+  display: flex;
+  gap: 45px;
+}
+
+.linklist > *:hover,
+.linklist > *:focus,
+.linklist ul li a:hover {
+  color: #fff;
+}
+
+/*Responsive Nave*/
+
+.responsivenavebar {
+  display: none;
+  overflow-y: hidden;
+  height: 70px;
+  transition: 3s;
+}
+
+.responsivenavebar:hover,
+.responsivenavebar:focus {
+  overflow-y: hidden;
+  height: auto;
+}
+
+.responsivebutton li {
+  list-style: none;
+}
+
+.resdropdownitems {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.resdropdownitems li {
+  margin-top: 10px;
+}
