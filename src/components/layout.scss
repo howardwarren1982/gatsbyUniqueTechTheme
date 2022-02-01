@@ -270,6 +270,24 @@ legend {
   white-space: normal; /* 1 */
 }
 
+/* Buttons*/
+
+.btnprimary {
+  background-color: var(--primary-color);
+  font-size: 63%;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 500;
+  border: none;
+}
+
+.btnprimary:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.btnmidsize {
+  padding: 18px 40px;
+}
+
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
