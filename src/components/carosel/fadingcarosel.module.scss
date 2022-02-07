@@ -1,1 +1,20 @@
+.heroCaroselImage {
+  width: 10%;
+}
 
+@media only screen and (max-width: 1120px) {
+  .heroCaroselImage {
+    width: 50px;
+  }
+}
+
+/*-----------------------------------------------------------*/
+/* Ipad, form 480px to 767px*/
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 650px) {
+}
+
+@media only screen and (max-width: 310px) {
+}

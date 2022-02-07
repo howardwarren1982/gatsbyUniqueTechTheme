@@ -2,21 +2,19 @@ import React from "react"
 import * as style from "./whatwedosection.module.scss"
 import { StaticImage } from "gatsby-plugin-image"
 
+import rightArrow from "../../images/arrowRight/arrowRight.png"
+
 export default function Whatwedosection() {
   return (
-    <section className={style.sectionwhatwedo}>
-      <div className={`${style.row} ${style.center}`}>
+    <section className={`${style.sectionwhatwedo} myrow`}>
+      <div className=" center">
         <h3>WHAT WE DO</h3>
         <span className="arrowspan">
-          <img
-            className="rightarrow"
-            src="./resources/css/img/arrowRight/arrowRight.png"
-            alt=""
-          />
+          <img className="rightarrow" src={rightArrow} alt="" />
         </span>
       </div>
 
-      <div className={style.row}>
+      <div className="">
         <div className={`${style.templetewebdesign} flexrevcol`}>
           <div className={style.whatwedotext}>
             <h5>SEARCH ENGINE OPTIMIZATION</h5>
@@ -40,7 +38,7 @@ export default function Whatwedosection() {
             </p>
 
             <button
-              className={`${style.btnprimary} ${style.btnmidsize}`}
+              className={`btnprimary btnmidsize`}
               type="button"
               name="button"
             >

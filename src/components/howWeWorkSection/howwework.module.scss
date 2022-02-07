@@ -1,0 +1,27 @@
+/*-------------------------- */
+/*Mixins*/
+/*-------------------------- */
+
+@mixin leftArrowSetup($top: 0px, $right: 0px, $bottom: 0px, $left: 0px) {
+  .arrowspan {
+    position: relative;
+  }
+
+  .leftarrow {
+    position: absolute;
+    bottom: $bottom;
+    top: $top;
+    right: $right;
+    left: $left;
+  }
+}
+
+.wework,
+.ourfeaturehead,
+.ourpackages {
+  padding: 20px 80px;
+}
+
+.howwework {
+  @include leftArrowSetup(13px, 0px, 0px, -56px);
+}

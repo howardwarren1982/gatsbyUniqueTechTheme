@@ -1,4 +1,20 @@
-@import "../layout.scss";
+/*-------------------------- */
+/*Mixins*/
+/*-------------------------- */
+
+@mixin righArrowSetup($top: 0px, $right: 0px, $bottom: 0px, $left: 0px) {
+  .arrowspan {
+    position: relative;
+  }
+
+  .rightarrow {
+    position: absolute;
+    bottom: $bottom;
+    top: $top;
+    right: $right;
+    left: $left;
+  }
+}
 
 /*-------------------------- */
 /*Section What we do*/

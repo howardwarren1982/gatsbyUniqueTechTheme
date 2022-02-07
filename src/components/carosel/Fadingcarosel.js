@@ -9,6 +9,7 @@ export default function Fadingcarosel() {
       <Carousel fade>
         <Carousel.Item>
           <StaticImage
+            className={styles.heroCaroselImage}
             src="../../images/laptopPhone.png"
             width={650}
             alt="Phone and laptop side by side"
@@ -16,6 +17,7 @@ export default function Fadingcarosel() {
         </Carousel.Item>
         <Carousel.Item>
           <StaticImage
+            className={styles.heroCaroselImage}
             src="../../images/seopic.jpg"
             width={650}
             alt="Phone and laptop side by side"
@@ -23,6 +25,7 @@ export default function Fadingcarosel() {
         </Carousel.Item>
         <Carousel.Item>
           <StaticImage
+            className={styles.heroCaroselImage}
             src="../../images/picjumbocom.jpg"
             width={650}
             alt="Phone and laptop side by side"
