@@ -19,6 +19,7 @@ $premium-color: #ffc038;
 .ourpackages {
   margin-top: 80px;
   margin-bottom: 170px;
+  padding: 20px 80px;
 
   @include leftArrowSetup(13px, 0px, 0px, -56px);
 }

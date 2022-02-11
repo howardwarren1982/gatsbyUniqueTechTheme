@@ -1,0 +1,61 @@
+@mixin righArrowSetup($top: 0px, $right: 0px, $bottom: 0px, $left: 0px) {
+  .arrowspan {
+    position: relative;
+  }
+
+  .rightarrow {
+    position: absolute;
+    bottom: $bottom;
+    top: $top;
+    right: $right;
+    left: $left;
+  }
+}
+
+.ourfeatures {
+  @include righArrowSetup(15px, 0px, 0px, -18px);
+}
+
+.ourfeaturehead {
+  margin-bottom: 150px;
+  margin-top: 130px;
+  padding: 20px 80px;
+}
+
+.featurecard {
+  max-width: 316px;
+  max-height: 154px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 14px;
+  display: flex;
+  transition: 0.4s;
+}
+
+.featurecard:hover {
+  background-color: var(--feature-card-hover);
+}
+
+.cardtext {
+  line-height: 25px;
+  max-width: 35ch;
+  text-align: left;
+  font-weight: 300;
+}
+
+.cardheading {
+  font-size: 90%;
+  font-weight: 400;
+  padding-bottom: 14px;
+}
+
+.featurecard img {
+  color: #1c1b1b;
+  width: 40px;
+  height: 40px;
+}
+
+.featurestemplete {
+  flex-wrap: wrap;
+  gap: 30px;
+}
