@@ -115,3 +115,40 @@ td:nth-child(3) {
   margin-bottom: 70px;
   border-bottom: 1px solid $premium-color;
 }
+
+/*-----------------------------------------------------------*/
+/* Sign up button fix*/
+@media only screen and (max-width: 1120px) {
+}
+
+/*-----------------------------------------------------------*/
+/* Ipad, form 480px to 767px*/
+@media only screen and (max-width: 767px) {
+  .ourpackages {
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .paydata {
+    display: none;
+  }
+  .arrowspan {
+    display: none;
+  }
+
+  .resposivetable {
+    display: block;
+  }
+
+  .responsivetabletemplete {
+    .basic,
+    .standard,
+    .premium {
+      font-size: 200%;
+    }
+
+    .tablebottem {
+      padding: 0px;
+    }
+  }
+}

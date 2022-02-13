@@ -2,16 +2,14 @@ import React from "react"
 import * as style from "./Howwework.module.scss"
 import { StaticImage } from "gatsby-plugin-image"
 
+import leftarrow from "../../images/arrowLeft/arrowLeft.png"
+
 export default function Howweworksection() {
   return (
     <section class={style.howwework}>
       <div class="myrow center">
-        <span class="arrowspan">
-          <img
-            class={style.leftarrow}
-            src="../../images/arrowLeft/arrowLeft.png"
-            alt=""
-          />
+        <span class={style.arrowspan}>
+          <img class={style.leftarrow} src={leftarrow} alt="" />
         </span>
         <h3 class={style.wework}>HOW WE WORK</h3>
       </div>

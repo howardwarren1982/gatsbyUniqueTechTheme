@@ -46,17 +46,24 @@
   background-color: var(--second-color-hover);
 }
 
+.caroseldiv {
+  position: relative;
+  bottom: 0px;
+  top: 154px;
+}
+
 @media only screen and (max-width: 1120px) {
   .templetehero {
     flex-direction: column-reverse;
   }
 
-  .responsivenavebar {
-    display: block;
-  }
-
-  .linklist {
-    display: none;
+  .caroseldiv {
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    left: 1%;
+    max-width: 100%;
+    padding-right: 8px;
   }
 
   .herotext {
@@ -67,7 +74,6 @@
     width: 100%;
   }
 
-  .caroselwindow,
   .herotext {
     margin-left: 6%;
   }
@@ -79,15 +85,6 @@
   .herotext img {
     display: none;
   }
-  nav {
-    justify-content: space-between;
-  }
-
-  .templetewebdesign,
-  .seo,
-  .marketting {
-    padding-left: 10%;
-  }
 }
 
 /*-----------------------------------------------------------*/
@@ -95,52 +92,5 @@
 @media only screen and (max-width: 767px) {
   .flexrevcol {
     flex-direction: column-reverse;
-  }
-
-  .paydata {
-    display: none;
-  }
-
-  .resposivetable {
-    display: block;
-  }
-
-  .responsive-table-templete {
-    .basic,
-    .standard,
-    .premium {
-      font-size: 200%;
-    }
-
-    .tablebottem {
-      padding: 0px;
-    }
-  }
-
-  .ourpackages {
-    margin-top: 50px;
-    margin-bottom: 150px;
-    padding: 25px;
-  }
-
-  nav {
-    gap: 100px;
-  }
-
-  .whatwedopic {
-    img {
-      width: 250px;
-    }
-  }
-
-  .weworkimg {
-    width: 100%;
-  }
-  .ourfeaturehead {
-    margin-top: 20px;
-  }
-
-  .footerlinks {
-    padding-left: 15%;
   }
 }

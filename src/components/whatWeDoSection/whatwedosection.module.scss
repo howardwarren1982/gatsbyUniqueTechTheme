@@ -21,8 +21,8 @@
 /*-------------------------- */
 
 .sectionwhatwedo h3 {
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-top: 140px;
   margin-bottom: 186px;
 }
@@ -45,9 +45,7 @@
 
 .templetewebdesign,
 .marketting {
-  display: flex;
   gap: 75px;
-  flex-direction: row-reverse;
   margin-bottom: 200px;
   justify-content: center;
 }
@@ -62,4 +60,29 @@
 .whatwedopic img {
   max-width: 416px;
   max-height: 252px;
+}
+
+@media only screen and (max-width: 766px) {
+}
+
+/*-----------------------------------------------------------*/
+/* Sign up button fix*/
+@media only screen and (max-width: 1120px) {
+  .templetewebdesign,
+  .seo,
+  .marketting {
+    padding-left: 20%;
+    padding-right: 5px;
+  }
+  .arrowspan {
+    display: none;
+  }
+}
+
+/*-----------------------------------------------------------*/
+/* Ipad, form 480px to 767px*/
+@media only screen and (max-width: 767px) {
+  .sectionwhatwedo h3 {
+    width: 100%;
+  }
 }

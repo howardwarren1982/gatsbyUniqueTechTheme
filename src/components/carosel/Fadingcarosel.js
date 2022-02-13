@@ -5,7 +5,7 @@ import { Carousel } from "react-bootstrap"
 
 export default function Fadingcarosel() {
   return (
-    <div>
+    <div className={styles.carosel}>
       <Carousel fade>
         <Carousel.Item>
           <StaticImage

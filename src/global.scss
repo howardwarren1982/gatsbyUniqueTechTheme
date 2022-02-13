@@ -492,21 +492,30 @@ section {
   display: flex;
 }
 
+.rflex {
+  display: flex;
+}
+
 .flexrevcol {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .flexspacebetween {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 766px) {
   /*Reusable*/
   .flex {
     flex-direction: column;
   }
 
   .flexrevcol {
+    flex-direction: column-reverse;
+  }
+
+  .rflex {
     flex-direction: column-reverse;
   }
 }

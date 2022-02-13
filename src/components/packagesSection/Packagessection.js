@@ -1,16 +1,14 @@
 import React from "react"
 import * as style from "./packages.module.scss"
 
+import leftarrow from "../../images/arrowLeft/arrowLeft.png"
+
 export default function Packagessection() {
   return (
     <section className={style.ourpackages}>
       <div className="myrow center">
-        <span className="arrowspan">
-          <img
-            className="leftarrow"
-            src="./resources/css/img/arrowLeft/arrowLeft.png"
-            alt=""
-          />
+        <span className={style.arrowspan}>
+          <img className={style.leftarrow} src={leftarrow} alt="" />
         </span>
         <h3 className={style.ourpackages}>OUR PACKAGES</h3>
       </div>
@@ -74,7 +72,7 @@ export default function Packagessection() {
         </table>
 
         <div className={style.resposivetable}>
-          <ul className="responsivetabletemplete">
+          <ul className={style.responsivetabletemplete}>
             <li className={style.basic}>Basic</li>
             <li>5 web sites</li>
             <li>15 e-mails</li>
@@ -87,7 +85,7 @@ export default function Packagessection() {
               </button>
             </li>
           </ul>
-          <ul className="responsivetabletemplete">
+          <ul className={style.responsivetabletemplete}>
             <li className={style.standard}>Standard</li>
             <li>15 web sites</li>
             <li>40 e-mails</li>
@@ -104,7 +102,7 @@ export default function Packagessection() {
               </button>
             </li>
           </ul>
-          <ul className="responsivetabletemplete">
+          <ul className={style.responsivetabletemplete}>
             <li className={style.premium}>premium</li>
             <li>30 web sites</li>
             <li>50 e-mails</li>

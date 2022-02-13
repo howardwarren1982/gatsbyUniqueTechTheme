@@ -9,8 +9,8 @@ export default function Whatwedosection() {
     <section className={`${style.sectionwhatwedo} myrow`}>
       <div className=" center">
         <h3>WHAT WE DO</h3>
-        <span className="arrowspan">
-          <img className="rightarrow" src={rightArrow} alt="" />
+        <span className={style.arrowspan}>
+          <img className={style.rightarrow} src={rightArrow} alt="" />
         </span>
       </div>
 
@@ -49,13 +49,13 @@ export default function Whatwedosection() {
           <div className={style.whatwedopic}>
             <StaticImage
               src="../../images/laptopPhone.png"
-              width={650}
+              width={410}
               alt="Design pic"
             />
           </div>
         </div>
 
-        <div className={`${style.seo} flexrevcol`}>
+        <div className={`${style.seo} rflex`}>
           <div className={style.whatwedotext}>
             <h5>SEARCH ENGINE OPTIMIZATION</h5>
             <p>
@@ -89,7 +89,7 @@ export default function Whatwedosection() {
           <div className={style.whatwedopic}>
             <StaticImage
               src="../../images/laptopPhone.png"
-              width={650}
+              width={410}
               alt="Design pic"
             />
           </div>
@@ -129,7 +129,7 @@ export default function Whatwedosection() {
           <div className={style.whatwedopic}>
             <StaticImage
               src="../../images/laptopPhone.png"
-              width={650}
+              width={410}
               alt="Design pic"
             />
           </div>

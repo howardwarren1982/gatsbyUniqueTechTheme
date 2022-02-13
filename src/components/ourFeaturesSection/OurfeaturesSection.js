@@ -11,17 +11,15 @@ import cropping from "../../images/cropping4.png"
 import wealth from "../../images/wealth.png"
 import soft from "../../images/soft4.png"
 
+import rightArrow from "../../images/arrowRight/arrowRight.png"
+
 export default function OurfeaturesSection() {
   return (
     <section class={style.ourfeatures}>
       <div class="myrow center">
         <h3 class={style.ourfeaturehead}>OUR FEATURES</h3>
-        <span class="arrow-span">
-          <img
-            class="right-arrow"
-            src="../../images/arrowRight/arrowRight.png"
-            alt=""
-          />
+        <span class={style.arrowspan}>
+          <img class={style.rightarrow} src={rightArrow} alt="" />
         </span>
       </div>
       <div class={`flex myrow ${style.featurestemplete} center`}>

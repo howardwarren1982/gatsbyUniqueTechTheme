@@ -56,7 +56,7 @@ export default function Herosection() {
                 />
               </button>
             </div>
-            <div style={{ position: `relative`, bottom: `0px`, top: `154px` }}>
+            <div className={style.caroseldiv}>
               <Fadingcarosel />
             </div>
           </div>
@@ -65,8 +65,3 @@ export default function Herosection() {
     </div>
   )
 }
-
-// for carousel slider style="
-//     bottom: 0px;
-//     top: 177px;
-// "
