@@ -71,11 +71,22 @@
   .templetewebdesign,
   .seo,
   .marketting {
-    padding-left: 20%;
+    padding-left: 5px;
     padding-right: 5px;
   }
   .arrowspan {
     display: none;
+  }
+
+  .whatwedotext p {
+    margin: 0 auto;
+  }
+
+  .responsiveCenter {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
   }
 }
 

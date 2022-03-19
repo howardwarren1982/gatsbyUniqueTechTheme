@@ -14,7 +14,7 @@ export default function Whatwedosection() {
         </span>
       </div>
 
-      <div className="">
+      <div className={style.responsiveCenter}>
         <div className={`${style.templetewebdesign} flexrevcol`}>
           <div className={style.whatwedotext}>
             <h5>SEARCH ENGINE OPTIMIZATION</h5>

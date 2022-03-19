@@ -52,7 +52,7 @@ export default function Herosection() {
                 <img
                   style={{ paddingLeft: `5px` }}
                   src={sendPlaneImage}
-                  alt="send plane image"
+                  alt="send plane"
                 />
               </button>
             </div>

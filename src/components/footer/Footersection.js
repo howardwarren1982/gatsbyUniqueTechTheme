@@ -7,7 +7,7 @@ export default function Footersection() {
   return (
     <div>
       <div className={style.row}>
-        <div className="flex flexspacebetween">
+        <div className="flex-wrap flexspacebetween">
           <ul className="portfolio">
             <li className={style.listheading}>
               <a href="">PORTFOLIO</a>
@@ -79,7 +79,7 @@ export default function Footersection() {
       <div className={style.row}>
         <div className="center">
           <div className="otherlinks">
-            <div className={`${style.row} ${style.soclist} flex center`}>
+            <div className={`${style.row} ${style.soclist} flex-wrap center`}>
               <div></div>
               <div></div>
               <div></div>
