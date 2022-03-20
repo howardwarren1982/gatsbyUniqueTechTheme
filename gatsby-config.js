@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsbyUniqueTechTheme",
   siteMetadata: {
     title: `Unique tech template`,
     description: `PSD to HTML and CSS`,
