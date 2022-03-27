@@ -15,152 +15,152 @@ import rightArrow from "../../images/arrowRight/arrowRight.png"
 
 export default function OurfeaturesSection() {
   return (
-    <section class={style.ourfeatures}>
-      <div class="myrow center">
-        <h3 class={style.ourfeaturehead}>OUR FEATURES</h3>
-        <span class={style.arrowspan}>
-          <img class={style.rightarrow} src={rightArrow} alt="" />
+    <section className={style.ourfeatures}>
+      <div className="myrow center">
+        <h3 className={style.ourfeaturehead}>OUR FEATURES</h3>
+        <span className={style.arrowspan}>
+          <img className={style.rightarrow} src={rightArrow} alt="" />
         </span>
       </div>
-      <div class={`flex myrow ${style.featurestemplete} center`}>
-        <div class="flex">
-          <div class={style.featurecard}>
+      <div className={`flex myrow ${style.featurestemplete} center`}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={bag} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={notebook} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={pencil} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={wallet} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={glode} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={hand} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={cropping} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={wealth} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={bag} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={soft} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={hand} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex">
-          <div class={style.featurecard}>
+        <div className="flex">
+          <div className={style.featurecard}>
             <img src={bag} alt="paper with writing" />
             <div>
-              <h6 class={style.cardheading}>Visual Composer</h6>
-              <p class={style.cardtext}>
+              <h6 className={style.cardheading}>Visual Composer</h6>
+              <p className={style.cardtext}>
                 TheFox comes with the Visual Composer Plugin. You won’t need to
                 code or to remember any shortcodes with our. Theme.
               </p>

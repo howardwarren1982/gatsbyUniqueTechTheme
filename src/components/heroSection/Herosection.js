@@ -11,11 +11,11 @@ import sendPlaneImage from "../../images/send.png"
 export default function Herosection() {
   return (
     <div>
-      <section class={style.sectionhero}>
+      <section className={style.sectionhero}>
         <Navcomponet />
-        <div class={style.row}>
-          <div class={style.templetehero}>
-            <div class={style.herotext}>
+        <div className={style.row}>
+          <div className={style.templetehero}>
+            <div className={style.herotext}>
               <img
                 style={{ position: `absolute`, left: `276px`, bottom: `446px` }}
                 src={dotLine}

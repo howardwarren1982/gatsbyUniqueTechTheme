@@ -7,7 +7,6 @@
 
 import * as React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
-import "./layout.scss"
 import Footersection from "./footer/Footersection"
 
 const Layout = ({ children }) => {
